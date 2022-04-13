@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/see">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aclonica"
+                    android:text="Welcome!!"
+                    android:textAlignment="center"
+                    android:textColor="@color/themed_light"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/profile_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/aclonica"
+                    android:text="Profile:Profile Name"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="#F44336"
+                    android:fontFamily="@font/aclonica"
+                    android:onClick="open_listview"
+                    android:text="ListView"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:layout_width="116dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="#E91E63"
+                    android:fontFamily="@font/aclonica"
+                    android:onClick="open_gridview"
+                    android:text="GridView"
+                    android:textColor="@color/white" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"></LinearLayout>
+                    </LinearLayout>
+                </ScrollView>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </FrameLayout>
+
+                <Button
+                    android:layout_width="105dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="#9C27B0"
+                    android:fontFamily="@font/aclonica"
+                    android:onClick="open_menu"
+                    android:text="Menu"
+                    android:textColor="@color/white" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </TableLayout>
+
+                <Button
+                    android:layout_width="109dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/purple_700"
+                    android:fontFamily="@font/aclonica"
+                    android:onClick="open_blueetooth"
+                    android:text="Bluetooth"
+                    android:textColor="@color/white" />
+                />
+
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="31dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="#2196F3"
+                    android:fontFamily="@font/aclonica"
+                    android:onClick="open_wifi"
+                    android:text="Wifi"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/sql_btn"
+                    android:layout_width="108dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="#00BCD4"
+                    android:fontFamily="@font/aclonica"
+                    android:text="SQLite"
+                    android:textColor="@color/white"
+
+                    />
+
+                <Button
+                    android:id="@+id/fragment_btn"
+                    android:layout_width="112dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="#009688"
+                    android:fontFamily="@font/aclonica"
+                    android:text="Activity Fragment"
+                    android:textColor="@color/white"
+
+                    />
+
+                <Button
+                    android:id="@+id/video_btn"
+                    android:layout_width="118dp"
+                    android:layout_height="27dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="#CDDC39"
+                    android:fontFamily="@font/aclonica"
+                    android:text="Video Player"
+                    android:textColor="@color/white"
+
+                    />
+
+
+                <Button
+                    android:id="@+id/audio_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="#FF9800"
+                    android:fontFamily="@font/aclonica"
+                    android:text="Audio Player"
+                    android:textColor="@color/white"
+
+                    />
+
+
+                <Button
+                    android:id="@+id/record_btn"
+                    android:layout_width="99dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="#DAB8AE"
+                    android:fontFamily="@font/aclonica"
+                    android:text="Record"
+                    android:textColor="@color/black" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:srcCompat="@tools:sample/backgrounds/scenic" />
+            </LinearLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
